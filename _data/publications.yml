@@ -1,0 +1,70 @@
+# _data/publications.yml
+# type: preprint / journal / conference
+
+preprint:
+  - title: "Paper Title (Preprint)"
+    authors: "A. Author, B. Author, Your Name"
+    venue: "arXiv"
+    year: 2025
+    note: "under review"   # 可选
+    links:
+      - name: "PDF"
+        url: "https://..."
+      - name: "arXiv"
+        url: "https://..."
+
+journal:
+  - title: "Synchronization of diverse agents via phase analysis"
+    authors: "Dan Wang, Wei Chen, and Li Qiu"
+    venue: "Automatica"
+    year: 2024
+    links:
+      - name: "PDF"
+        url: "https://..."
+      - name: "DOI"
+        url: "https://..."
+
+  - title: "Paper Title (Journal)"
+    authors: "Your Name, Coauthor"
+    venue: "Automatica"
+    year: 2024
+    note: ""               # 可选
+    links:
+      - name: "PDF"
+        url: "https://..."
+      - name: "DOI"
+        url: "https://..."
+
+  - title: "Paper Title (Journal)"
+    authors: "Your Name, Coauthor"
+    venue: "Automatica"
+    year: 2024
+    note: ""               # 可选
+    links:
+      - name: "PDF"
+        url: "https://..."
+      - name: "DOI"
+        url: "https://..."
+
+  - title: "Paper Title (Journal)"
+    authors: "Your Name, Coauthor"
+    venue: "Automatica"
+    year: 2024
+    note: ""               # 可选
+    links:
+      - name: "PDF"
+        url: "https://..."
+      - name: "DOI"
+        url: "https://..."
+
+conference:
+  - title: "Paper Title (Conference)"
+    authors: "Your Name, Coauthor"
+    venue: "CDC"
+    year: 2025
+    note: "accepted"       # 可选
+    links:
+      - name: "PDF"
+        url: "https://..."
+      - name: "Code"
+        url: "https://..."
