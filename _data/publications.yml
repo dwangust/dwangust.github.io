@@ -6,7 +6,7 @@ preprint:
     authors: "A. Author, B. Author, Your Name"
     venue: "arXiv"
     year: 2025
-    note: "under review"   # 可选
+    note: "under review"
     links:
       - name: "PDF"
         url: "https://..."
@@ -15,56 +15,196 @@ preprint:
 
 journal:
   - title: "Synchronization of diverse agents via phase analysis"
-    authors: "Dan Wang, Wei Chen, and Li Qiu"
+    authors: "D. Wang, W. Chen, and L. Qiu"
     venue: "Automatica"
     year: 2024
+    note: "Full paper"
     links:
-      - name: "PDF"
-        url: "https://..."
-      - name: "DOI"
-        url: "https://..."
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0005109823004910"
 
-  - title: "Paper Title (Journal)"
-    authors: "Your Name, Coauthor"
-    venue: "Automatica"
+  - title: "The first five years of a phase theory for complex systems and networks"
+    authors: "D. Wang, W. Chen, and L. Qiu"
+    venue: "IEEE/CAA Journal of Automatica Sinica"
     year: 2024
-    note: ""               # 可选
     links:
-      - name: "PDF"
-        url: "https://..."
-      - name: "DOI"
-        url: "https://..."
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/document/10605729"
 
-  - title: "Paper Title (Journal)"
-    authors: "Your Name, Coauthor"
-    venue: "Automatica"
-    year: 2024
-    note: ""               # 可选
+  - title: "On the phases of a semi-sectorial matrix and the essential phase of a Laplacian"
+    authors: "D. Wang, X. Mao, W. Chen, and L. Qiu"
+    venue: "Linear Algebra and its Applications"
+    year: 2023
     links:
-      - name: "PDF"
-        url: "https://..."
-      - name: "DOI"
-        url: "https://..."
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0024379523002744"
 
-  - title: "Paper Title (Journal)"
-    authors: "Your Name, Coauthor"
-    venue: "Automatica"
-    year: 2024
-    note: ""               # 可选
+  - title: "On the phases of a complex matrix"
+    authors: "D. Wang, W. Chen, S. Z. Khong, and L. Qiu"
+    venue: "Linear Algebra and its Applications"
+    year: 2020
     links:
-      - name: "PDF"
-        url: "https://..."
-      - name: "DOI"
-        url: "https://..."
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/pii/S0024379520300458"
+
+  - title: "Gain and phase: decentralized stability conditions for power electronics-dominated power systems"
+    authors: "L. Huang, D. Wang (co-first), X. Wang, H. Xin, P. Ju, K. H. Johansson, and F. Dörfler"
+    venue: "IEEE Transactions on Power Systems"
+    year: 2024
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/document/10477540"
+
+  - title: "A phase theory of multi-input multi-output linear time-invariant systems"
+    authors: "W. Chen, D. Wang, S. Z. Khong, and L. Qiu"
+    venue: "SIAM Journal on Control and Optimization"
+    year: 2024
+    links:
+      - name: "Link"
+        url: "https://epubs.siam.org/doi/abs/10.1137/22M148968X"
+
+  - title: "Limitations of using passivity index to analyze grid-inverter interactions"
+    authors: "F. Chen, X. Wang, L. Harnefors, S. Z. Khong, D. Wang, L. Zhao, K. C. Sou, M. Routimo, J. Kukkola, H. Sandberg, and K. H. Johansson"
+    venue: "IEEE Transactions on Power Electronics"
+    year: 2024
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/10598346"
+
+  - title: "An extended frequency-domain passivity theory for MIMO dynamics specifications of voltage-source inverters"
+    authors: "F. Chen, S. Z. Khong, L. Harnefors, X. Wang, D. Wang, H. Sandberg, L. Zhao, M. Routimo, J. Kukkola, K. C. Sou, and K. H. Johansson"
+    venue: "IEEE Transactions on Power Electronics"
+    year: 2025
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/10739924"
+
+  - title: "On spectral properties of signed Laplacians with connections to eventual positivity"
+    authors: "W. Chen, D. Wang, J. Liu, Y. Chen, S. Z. Khong, T. Başar, K. H. Johansson, and L. Qiu"
+    venue: "IEEE Transactions on Automatic Control"
+    year: 2021
+    note: "Full paper"
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/9137633"
+
+  - title: "New phase of phase"
+    authors: "L. Qiu, W. Chen, and D. Wang"
+    venue: "Journal of Systems Science and Complexity"
+    year: 2021
+    links:
+      - name: "Link"
+        url: "https://link.springer.com/article/10.1007/s11424-021-1249-z"
+
+  - title: "Some counterexamples related to sectorial matrices and matrix phases"
+    authors: "X. Mao, L. Qiu, A. Ringh, and D. Wang"
+    venue: "Examples and Counterexamples"
+    year: 2021
+    links:
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/pii/S2666657X21000112"
 
 conference:
-  - title: "Paper Title (Conference)"
-    authors: "Your Name, Coauthor"
-    venue: "CDC"
-    year: 2025
-    note: "accepted"       # 可选
+  - title: "Robust output synchronization of discrete-time linear-time-invariant multi-agent systems using phase tool"
+    authors: "X. Mao, D. Wang, W. Chen, and L. Qiu"
+    venue: "European Control Conference"
+    year: 2024
     links:
-      - name: "PDF"
-        url: "https://..."
-      - name: "Code"
-        url: "https://..."
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/10590990"
+
+  - title: "Phase of multivariable systems: a revisit via H₂ᵀ-dissipativity"
+    authors: "D. Wang, W. Chen, and K. H. Johansson"
+    venue: "IEEE Conference on Decision and Control"
+    year: 2023
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/10384290"
+
+  - title: "On a small phase theorem with necessity over phase bounded nonlinear uncertainties"
+    authors: "X. Yang, D. Wang, and W. Chen"
+    venue: "IFAC World Congress"
+    year: 2023
+    links:
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/pii/S2405896323023145"
+
+  - title: "Output synchronization of discrete-time heterogeneous network"
+    authors: "X. Mao, D. Wang, W. Chen, and L. Qiu"
+    venue: "Asian Control Conference"
+    year: 2022
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/9828331"
+
+  - title: "Synchronization of heterogeneous dynamical networks via phase analysis"
+    authors: "D. Wang, W. Chen, and L. Qiu"
+    venue: "IFAC World Congress"
+    year: 2020
+    links:
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/pii/S2405896320313495"
+
+  - title: "Controlling a networked SIS model via a single input over undirected graphs"
+    authors: "D. Wang, J. Liu, P. E. Pare, W. Chen, L. Qiu, C. L. Beck, and T. Başar"
+    venue: "IFAC World Congress"
+    year: 2020
+    links:
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/pii/S2405896320302329"
+
+  - title: "Phase analysis of MIMO LTI systems"
+    authors: "W. Chen, D. Wang, S. Z. Khong, and L. Qiu"
+    venue: "IEEE Conference on Decision and Control"
+    year: 2019
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/9029653"
+
+  - title: "A dynamical network framework with application to stability of power networks"
+    authors: "D. Wang, W. Chen, S. Z. Khong, J. Liu, T. Başar, and L. Qiu"
+    venue: "IEEE Conference on Decision and Control"
+    year: 2017
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/8264084"
+
+  - title: "On spectral properties of signed Laplacians for undirected graphs"
+    authors: "W. Chen, D. Wang, J. Liu, T. Başar, and L. Qiu"
+    venue: "IEEE Conference on Decision and Control"
+    year: 2017
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/8263941"
+
+  - title: "Modulus consensus over time-varying digraphs"
+    authors: "J. Liu, D. Wang, W. Chen, and T. Başar"
+    venue: "American Control Conference"
+    year: 2017
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/7963075"
+
+  - title: "Multi-leader selection in complex networks"
+    authors: "D. Wang, W. Chen, and L. Qiu"
+    venue: "IEEE Conference on Decision and Control"
+    year: 2016
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/document/7798518"
+
+  - title: "Characterizing the positive semidefiniteness of weighted Laplacians via generalized effective resistances"
+    authors: "W. Chen, J. Liu, Y. Chen, S. Z. Khong, D. Wang, T. Başar, L. Qiu, and K. H. Johansson"
+    venue: "IEEE Conference on Decision and Control"
+    year: 2016
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/7798396"
+
+  - title: "On semidefiniteness of signed Laplacians with application to microgrids"
+    authors: "W. Chen, D. Wang, J. Liu, T. Başar, K. H. Johansson, and L. Qiu"
+    venue: "IFAC Workshop on Distributed Estimation and Control in Networked Systems"
+    year: 2016
+    links:
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/pii/S2405896316319668"
