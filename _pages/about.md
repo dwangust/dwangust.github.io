@@ -20,6 +20,8 @@ Short bio
 ======
 I obtained my Ph.D. degree from The Hong Kong University of Science and Technology in 2020 under the supervision of Prof. Li Qiu. I am currently an Assistant Professor with the School of Robotics and Automation, Nanjing University. Prior to joining Nanjing University, I worked as a Postdoctoral Fellow at KTH Royal Institute of Technology with host supervisor Prof. Karl H. Johansson and The Hong Kong University of Science and Technology, respectively. From January 2018 to July 2018, I was a Visiting Scholar with the University of Illinois at Urbana-Champaign with host supervisor Prof. Tamer Başar. 
 
+You can find my full CV here. [中文版](../assets/CV_Chinese.pdf)
+
 
 Research Interests
 ======
