@@ -17,32 +17,33 @@
 
           <!-- 自动编号（按 YAML 顺序） -->
           [{{ forloop.index }}]
-          
+
           <!-- 作者（你的名字自动加粗） -->
           {% assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" %}
           {{ author_text }}.
 
-          <!-- 标题 -->
+          <!-- 标题（支持 MathJax） -->
           {{ p.title }}.
 
-          <!-- 期刊 / 会议 -->
-		  {% if g == "preprint" %}
-	  	  {% if p.year %}{{ p.year }}{% endif %}
-	  	  {% if p.note and p.note != "" %}
-	  	    , {{ p.note }}
-	  	  {% endif %}.
-		  {% else %}
-	  	  {% if g == "journal" or g == "conference" %}
-	  	    <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}
-	  	  {% else %}
-	  	    {{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}
-	  	  {% endif %}
+          <!-- ====== Preprint ====== -->
+          {% if g == "preprint" %}
+            {% if p.year %}
+              {{ p.year }}
+            {% endif %}
+            {% if p.note and p.note != "" %}
+              , {{ p.note }}
+            {% endif %}.
+          {% else %}
 
-	  	  {% if p.note and p.note != "" %}
-	        (<strong>{{ p.note }}</strong>)
-	  	  {% endif %}.
+          <!-- ====== Journal / Conference ====== -->
+            <em>{{ p.venue }}</em>
+            {% if p.year %}, {{ p.year }}{% endif %}
+            {% if p.note and p.note != "" %}
+              (<strong>{{ p.note }}</strong>)
+            {% endif %}.
+          {% endif %}
 
-		  <!-- 链接 -->
+          <!-- 链接 -->
           {% if p.links and p.links.size > 0 %}
             {% for l in p.links %}
               <a href="{{ l.url }}">[{{ l.name }}]</a>
