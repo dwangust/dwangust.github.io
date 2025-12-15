@@ -1,0 +1,17 @@
+talks:
+  - title: "Phase theory for multivariable systems"
+    event: "Seminar at KTH Royal Institute of Technology"
+    location: "Stockholm, Sweden"
+    date: "2024-10"
+    note: "Invited talk"
+    links:
+      - name: "Slides"
+        url: "https://..."
+
+  - title: "Synchronization of heterogeneous multi-agent systems"
+    event: "IFAC World Congress"
+    location: "Yokohama, Japan"
+    date: "2023-07"
+    links:
+      - name: "Slides"
+        url: "https://..."
