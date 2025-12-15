@@ -15,13 +15,13 @@
         <li style="margin: 0.45em 0;">
           {%- assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" -%}
 
-          [{{ forloop.index }}] {{ author_text }}, {{ p.title }},
+          [{{ forloop.index }}] {{ author_text }}, {{ p.title }}, 
           {%- if g == "preprint" -%}
             {%- if p.year -%} {{ p.year }}{%- endif -%}
             {%- if p.note and p.note != "" -%}, {{ p.note }}{%- endif -%}.
           {%- else -%}
             <em>{{ p.venue }}</em>{%- if p.year -%}, {{ p.year }}{%- endif -%}
-            {%- if p.note and p.note != "" -%}, ({{ p.note }}){%- endif -%}.
+            {%- if p.note and p.note != "" -%}, ({{ p.note }}){%- endif -%}. 
           {%- endif -%}
 
           {%- if p.links and p.links.size > 0 -%}
