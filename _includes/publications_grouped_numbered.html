@@ -20,24 +20,24 @@
 
           <!-- 作者（你的名字自动加粗） -->
           {% assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" %}
-          {{ author_text }}.
+          {{ author_text }},
 
           <!-- 标题（支持 MathJax） -->
-          {{ p.title }}.
+          {{ p.title }},
 
           <!-- ====== Preprint ====== -->
           {% if g == "preprint" %}
             {% if p.year %}
-              {{ p.year }}
+              {{ p.year}}
             {% endif %}
             {% if p.note and p.note != "" %}
-              , {{ p.note }}
-            {% endif %}.
-          {% else %}
+              , {{ p.note}}
+            {% endif %}
+          {% else %}.
 
           <!-- ====== Journal / Conference ====== -->
-            <em>{{ p.venue }}</em>
-            {% if p.year %}, {{ p.year }}{% endif %}
+            <em>{{ p.venue}}</em>
+            {% if p.year %}, {{ p.year}}{% endif %}
             {% if p.note and p.note != "" %}
               (<strong>{{ p.note }}</strong>)
             {% endif %}.
