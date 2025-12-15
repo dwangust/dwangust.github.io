@@ -13,31 +13,29 @@
 
     <ul style="list-style: none; padding-left: 0;">
       {% for p in items %}
-        <li style="margin: 0.6em 0;">
+        <li style="margin: 0.45em 0;">
 
-          <!-- 自动编号：按 YAML 顺序 -->
-          <span>[{{ forloop.index }}]</span>
-          <strong>{{ p.title }}</strong><br/>
-
-          <!-- 自动加粗你的名字 -->
+          <!-- 自动编号（按 YAML 顺序） -->
+          [{{ forloop.index }}]
+          
+          <!-- 作者（你的名字自动加粗） -->
           {% assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" %}
-          {{ author_text }}<br/>
+          {{ author_text }}.
 
-          <!-- Journal / Conference 斜体，仅 venue 名字 -->
+          <!-- 标题 -->
+          {{ p.title }}.
+
+          <!-- 期刊 / 会议 -->
           {% if g == "journal" or g == "conference" %}
-            <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}
+            <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}.
           {% else %}
-            {{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}
+            {{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}.
           {% endif %}
 
-          {% if p.note and p.note != "" %}
-            — {{ p.note }}
-          {% endif %}
-
+          <!-- 链接 -->
           {% if p.links and p.links.size > 0 %}
-            <span> | </span>
             {% for l in p.links %}
-              <a href="{{ l.url }}">{{ l.name }}</a>{% unless forloop.last %} / {% endunless %}
+              <a href="{{ l.url }}">[{{ l.name }}]</a>
             {% endfor %}
           {% endif %}
 
