@@ -1,0 +1,16 @@
+<ul>
+  {% for t in site.data.talks.talks %}
+    <li style="margin: 0.45em 0;">
+      <strong>{{ t.title }}</strong>.
+      {{ t.event }}{% if t.location %}, {{ t.location }}{% endif %}.
+      {{ t.date }}.
+      {% if t.note %}{{ t.note }}.{% endif %}
+
+      {% if t.links and t.links.size > 0 %}
+        {% for l in t.links %}
+          <a href="{{ l.url }}">[{{ l.name }}]</a>
+        {% endfor %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
