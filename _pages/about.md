@@ -25,7 +25,7 @@ You can find my full CV here. [[中文版]](../assets/CV_Chinese.pdf)
 
 Research Interests
 ======
-- Phase theory for complex systems
+- Phase theory of complex systems and networks
 - Cooperative control of multi-agent systems
 - Stability and performance analysis of renewable power systems
 - Control of epidemics
