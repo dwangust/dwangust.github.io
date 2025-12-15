@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Dan Wang\ 
+Dan Wang\
 Assistant Professor\
 School of Robotics and Automation, Nanjing University\
 Suzhou, Jiangsu, China\
