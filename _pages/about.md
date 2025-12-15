@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Dan Wang\
+Dr. Dan Wang\
 Assistant Professor\
 School of Robotics and Automation, Nanjing University\
 Suzhou, Jiangsu, China\
@@ -28,4 +28,5 @@ Research Interests
 - Phase theory for complex systems
 - Cooperative control of multi-agent systems
 - Stability and performance analysis of renewable power systems
-- Network science (ranking, clustering, leader selection, epidemics control, signed graphs, etc)
+- Control of epidemics
+- Network science (ranking, clustering, leader selection, signed graphs, etc)
