@@ -17,10 +17,10 @@
 
           [{{ forloop.index }}] {{ author_text }}, {{ p.title }}, 
           {%- if g == "preprint" -%}
-            {%- if p.year -%} {{ p.year }}{%- endif -%}
+            {%- if p.year -%} {{  p.year }}{%- endif -%}
             {%- if p.note and p.note != "" -%}, {{ p.note }}{%- endif -%}.
           {%- else -%}
-            <em>{{ p.venue }}</em>{%- if p.year -%}, {{ p.year }}{%- endif -%}
+            <em>{{ p.venue }}</em>{%- if p.year -%}, {{  p.year }}{%- endif -%}
             {%- if p.note and p.note != "" -%}, ({{ p.note }}){%- endif -%}. 
           {%- endif -%}
 
