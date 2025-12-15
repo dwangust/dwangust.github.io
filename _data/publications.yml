@@ -7,9 +7,9 @@ preprint:
     venue: "arXiv"
     year: 2025
     note: "under review in IEEE TAC"
-    links:
-      - name: "arXiv"
-        url: "https://..."
+#    links:
+#      - name: "arXiv"
+#        url: "https://..."
 
 journal:
 - title: "Synchronization of diverse agents via phase analysis"
