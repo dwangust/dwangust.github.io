@@ -15,37 +15,30 @@
       {% for p in items %}
         <li style="margin: 0.45em 0;">
 
-          <!-- 自动编号（按 YAML 顺序） -->
-          [{{ forloop.index }}]
-
-          <!-- 作者（你的名字自动加粗） -->
+          {%- comment -%} Authors (bold my name) {%- endcomment -%}
           {% assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" %}
-          {{ author_text }},
+          {{ author_text }}, 
 
-          <!-- 标题（支持 MathJax） -->
-          {{ p.title }},
+          {%- comment -%} Title {%- endcomment -%}
+          {{ p.title }}, 
 
-          <!-- ====== Preprint ====== -->
+          {%- comment -%} Preprint vs Journal/Conference formatting {%- endcomment -%}
           {% if g == "preprint" %}
-            {% if p.year %}
-              {{ p.year}}
-            {% endif %}
+            {% if p.year %}{{ p.year }}{% endif %}
             {% if p.note and p.note != "" %}
-              , {{ p.note}}
-            {% endif %}
-          {% else %}.
-
-          <!-- ====== Journal / Conference ====== -->
-            <em>{{ p.venue}}</em>
-            {% if p.year %}, {{ p.year}}{% endif %}
+              , {{ p.note }}
+            {% endif %}.
+          {% else %}
+            <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}
             {% if p.note and p.note != "" %}
-              (<strong>{{ p.note }}</strong>)
+              , ({{ p.note }})
             {% endif %}.
           {% endif %}
 
-          <!-- 链接 -->
+          {%- comment -%} Links: comma + space separators; only show if exists {%- endcomment -%}
           {% if p.links and p.links.size > 0 %}
             {% for l in p.links %}
+              {% if forloop.first %} {% else %}, {% endif %}
               <a href="{{ l.url }}">[{{ l.name }}]</a>
             {% endfor %}
           {% endif %}
