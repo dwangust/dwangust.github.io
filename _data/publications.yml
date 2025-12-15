@@ -61,6 +61,14 @@ journal:
   #     - name: "Link"
   #       url: "https://www.sciencedirect.com/science/article/abs/pii/S0167691125002944"
 
+  - title: "An extended frequency-domain passivity theory for MIMO dynamics specifications of voltage-source inverters"
+    authors: "F. Chen, S. Z. Khong, L. Harnefors, X. Wang, D. Wang, H. Sandberg, L. Zhao, M. Routimo, J. Kukkola, K. C. Sou, and K. H. Johansson"
+    venue: "IEEE Transactions on Power Electronics"
+    year: 2025
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/10739924"
+
   - title: "A phase theory of multi-input multi-output linear time-invariant systems"
     authors: "W. Chen, D. Wang, S. Z. Khong, and L. Qiu"
     venue: "SIAM Journal on Control and Optimization"
@@ -76,14 +84,6 @@ journal:
     links:
       - name: "Link"
         url: "https://ieeexplore.ieee.org/abstract/document/10598346"
-
-  - title: "An extended frequency-domain passivity theory for MIMO dynamics specifications of voltage-source inverters"
-    authors: "F. Chen, S. Z. Khong, L. Harnefors, X. Wang, D. Wang, H. Sandberg, L. Zhao, M. Routimo, J. Kukkola, K. C. Sou, and K. H. Johansson"
-    venue: "IEEE Transactions on Power Electronics"
-    year: 2025
-    links:
-      - name: "Link"
-        url: "https://ieeexplore.ieee.org/abstract/document/10739924"
 
   - title: "On spectral properties of signed Laplacians with connections to eventual positivity"
     authors: "W. Chen, D. Wang, J. Liu, Y. Chen, S. Z. Khong, T. Başar, K. H. Johansson, and L. Qiu"
