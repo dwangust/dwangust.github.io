@@ -20,10 +20,7 @@
           <strong>{{ p.title }}</strong><br/>
 
           <!-- 自动加粗你的名字 -->
-          {%- assign author_text = p.authors
-             | replace: myname, "<strong>"
-             | append: myname
-             | append: "</strong>" -%}
+          {% assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" %}
           {{ author_text }}<br/>
 
           <!-- Journal / Conference 斜体，仅 venue 名字 -->
