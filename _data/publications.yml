@@ -2,19 +2,17 @@
 # type: preprint / journal / conference
 
 preprint:
-  - title: "Paper Title (Preprint)"
-    authors: "A. Author, B. Author, Your Name"
+  - title: "Diversity and interaction quality of a heterogeneous multi-agent system applied to a synchronization problem"
+    authors: "X. Mao, D. Wang, W. Chen, and L. Qiu"
     venue: "arXiv"
     year: 2025
-    note: "under review"
+    note: "under review in IEEE TAC"
     links:
-      - name: "PDF"
-        url: "https://..."
       - name: "arXiv"
         url: "https://..."
 
 journal:
-  - title: "Synchronization of diverse agents via phase analysis"
+- title: "Synchronization of diverse agents via phase analysis"
     authors: "D. Wang, W. Chen, and L. Qiu"
     venue: "Automatica"
     year: 2024
@@ -54,6 +52,14 @@ journal:
     links:
       - name: "Link"
         url: "https://ieeexplore.ieee.org/document/10477540"
+
+#  - title: "State feedback $\Phi_\infty$ synthesis of multivariable linear systems"
+#    authors: "X. Yang, D. Wang, and W. Chen"
+#    venue: "Systems & Control Letters"
+#    year: 2026
+#    links:
+#      - name: "Link"
+#        url: "https://www.sciencedirect.com/science/article/abs/pii/S0167691125002944"
 
   - title: "A phase theory of multi-input multi-output linear time-invariant systems"
     authors: "W. Chen, D. Wang, S. Z. Khong, and L. Qiu"
