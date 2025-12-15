@@ -1,50 +1,37 @@
-{% assign myname = "D. Wang" %}
+{%- assign myname = "D. Wang" -%}
+{%- assign groups = "preprint,journal,conference" | split: "," -%}
+{%- assign labels = "Preprints,Journals,Conferences" | split: "," -%}
 
-{% assign groups = "preprint,journal,conference" | split: "," %}
-{% assign labels = "Preprints,Journals,Conferences" | split: "," %}
+{%- for g in groups -%}
+  {%- assign idx = forloop.index0 -%}
+  {%- assign label = labels[idx] -%}
+  {%- assign items = site.data.publications[g] -%}
 
-{% for g in groups %}
-  {% assign idx = forloop.index0 %}
-  {% assign label = labels[idx] %}
-  {% assign items = site.data.publications[g] %}
-
-  {% if items and items.size > 0 %}
+  {%- if items and items.size > 0 -%}
     <h2 style="margin-top: 1.4em;">{{ label }}</h2>
 
     <ul style="list-style: none; padding-left: 0;">
-      {% for p in items %}
+      {%- for p in items -%}
         <li style="margin: 0.45em 0;">
+          {%- assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" -%}
 
-          {%- comment -%} Authors (bold my name) {%- endcomment -%}
-          {% assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" %}
-          {{ author_text }}, 
+          [{{ forloop.index }}] {{ author_text }}, {{ p.title }},
+          {%- if g == "preprint" -%}
+            {%- if p.year -%} {{ p.year }}{%- endif -%}
+            {%- if p.note and p.note != "" -%}, {{ p.note }}{%- endif -%}.
+          {%- else -%}
+            <em>{{ p.venue }}</em>{%- if p.year -%}, {{ p.year }}{%- endif -%}
+            {%- if p.note and p.note != "" -%}, ({{ p.note }}){%- endif -%}.
+          {%- endif -%}
 
-          {%- comment -%} Title {%- endcomment -%}
-          {{ p.title }}, 
-
-          {%- comment -%} Preprint vs Journal/Conference formatting {%- endcomment -%}
-          {% if g == "preprint" %}
-            {% if p.year %}{{ p.year }}{% endif %}
-            {% if p.note and p.note != "" %}
-              , {{ p.note }}
-            {% endif %}.
-          {% else %}
-            <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}
-            {% if p.note and p.note != "" %}
-              , ({{ p.note }})
-            {% endif %}.
-          {% endif %}
-
-          {%- comment -%} Links: comma + space separators; only show if exists {%- endcomment -%}
-          {% if p.links and p.links.size > 0 %}
-            {% for l in p.links %}
-              {% if forloop.first %} {% else %}, {% endif %}
+          {%- if p.links and p.links.size > 0 -%}
+            {%- for l in p.links -%}
+              {%- if forloop.first -%} {%- else -%}, {%- endif -%}
               <a href="{{ l.url }}">[{{ l.name }}]</a>
-            {% endfor %}
-          {% endif %}
-
+            {%- endfor -%}
+          {%- endif -%}
         </li>
-      {% endfor %}
+      {%- endfor -%}
     </ul>
-  {% endif %}
-{% endfor %}
+  {%- endif -%}
+{%- endfor -%}
