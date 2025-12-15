@@ -18,7 +18,7 @@ Address: 1520 Taihu Avenue, Suzhou City, Jiangsu Province.
 
 Short bio
 ======
-I obtained my Ph.D. degree from The Hong Kong University of Science and Technology in 2020 under the supervision of Prof. Li Qiu. I am currently an Assistant Professor with the School of Robotics and Automation, Nanjing University. Prior to joining Nanjing University, I worked as a Postdoctoral Fellow at KTH Royal Institute of Technology with host supervisor Prof. Karl H. Johansson and The Hong Kong University of Science and Technology, respectively. From January 2018 to July 2018, I was a Visiting Scholar with the University of Illinois at Urbana-Champaign with host supervisor Prof. Tamer Başar. 
+I obtained my Ph.D. degree from The Hong Kong University of Science and Technology in 2020 under the supervision of [Prof. Li Qiu](https://sse.cuhk.edu.cn/en/faculty/qiuli). I am currently an Assistant Professor with the [School of Robotics and Automation](https://ra.nju.edu.cn/), [Nanjing University](https://www.nju.edu.cn/). Prior to joining Nanjing University, I worked as a Postdoctoral Fellow at KTH Royal Institute of Technology with host supervisor [Prof. Karl H. Johansson](https://people.kth.se/~kallej/index.html) and The Hong Kong University of Science and Technology, respectively. From January 2018 to July 2018, I was a Visiting Scholar at the University of Illinois at Urbana-Champaign with host supervisor [Prof. Tamer Başar](https://tamerbasar.csl.illinois.edu/). 
 
 You can find my full CV here. [[中文版]](../assets/CV_Chinese.pdf)
 
