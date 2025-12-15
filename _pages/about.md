@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Dan Wang
-Assistant Professor
-School of Robotics and Automation, Nanjing University
-Suzhou, Jiangsu, China
-Office: Room West 346, Nanyong Building
+Dan Wang\ 
+Assistant Professor\
+School of Robotics and Automation, Nanjing University\
+Suzhou, Jiangsu, China\
+Office: Room West 346, Nanyong Building\
 Address: . 
 
 
