@@ -1,17 +1,82 @@
 talks:
-  - title: "Phase theory for multivariable systems"
-    event: "Seminar at KTH Royal Institute of Technology"
-    location: "Stockholm, Sweden"
-    date: "2024-10"
-    note: "Invited talk"
-    links:
-      - name: "Slides"
-        url: "https://..."
+  - title: "Scalable controller design for synchronization of heterogeneous agents: a phase-theoretical approach"
+    date: "2025.12"
+    place: "Shanghai Jiao Tong University"
 
-  - title: "Synchronization of heterogeneous multi-agent systems"
-    event: "IFAC World Congress"
-    location: "Yokohama, Japan"
-    date: "2023-07"
-    links:
-      - name: "Slides"
-        url: "https://..."
+  - title: "相位理论与异构多智能体网络的同步"
+    date: "2025.10"
+    place: "南方科技大学"
+    note: "控制-优化-网络系列讲座"
+
+  - title: "Gain and phase: decentralized stability condition for renewable power systems"
+    date: "2025.06"
+    place: "Workshop: Unleashing Phase Theory for Dynamical Networks, 10th IFAC Conference on Networked Systems"
+
+  - title: "Synchronization of multi-agent network using phase alignment"
+    date: "2024.08"
+    place: "26th International Symposium on Mathematical Theory of Networks and Systems, Cambridge"
+
+  - title: "Gain and phase: decentralized stability conditions for power electronics-dominated power systems"
+    date: "2024.08"
+    place: "Imperial College London"
+
+  - title: "Gain and phase: decentralized stability conditions for power electronics-dominated power systems"
+    date: "2024.07"
+    place: "复杂系统相位理论研讨会，北京"
+
+  - title: "Phase of multivariable systems: a revisit via $\mathcal{H}_2^T$-dissipativity"
+    date: "2023.12"
+    place: "IEEE CDC"
+
+  - title: "Synchronization of diverse agents via phase analysis"
+    date: "2023.08"
+    place: "南京理工大学"
+
+  - title: "Synchronization of diverse agents via phase analysis"
+    date: "2023.08"
+    place: "Tokyo-Beijing-Hong Kong Workshop, Hong Kong University of Science and Technology"
+
+  - title: "Synchronization of dynamic network via phase analysis"
+    date: "2023.01"
+    place: "北京大学"
+
+  - title: "Synchronization of diverse agents via phase approaches"
+    date: "2022.06"
+    place: "Swedish Control Meeting, Luleå"
+
+  - title: "Phase analysis of MIMO LTI systems"
+    date: "2022.02"
+    place: "University of Gothenburg & Chalmers University of Technology"
+
+  - title: "Synchronization of diverse agents via phase analysis"
+    date: "2021.12"
+    place: "东北大学"
+    note: "NEU and HKUST Joint Mini-Workshop on Nonlinear Small X, online"
+
+  - title: "Synchronization of heterogeneous dynamical networks via phase analysis"
+    date: "2020.07"
+    place: "IFAC World Congress, online"
+
+  - title: "Controlling a networked SIS model via a single input over undirected graphs"
+    date: "2020.07"
+    place: "IFAC World Congress, online"
+
+  - title: "Phase analysis of dynamical networks"
+    date: "2019.09"
+    place: "Huawei Hong Kong"
+
+  - title: "Stability of general dynamical networks via majorization of phases"
+    date: "2018.08"
+    place: "23rd International Symposium on Mathematical Theory of Networks and Systems, Hong Kong"
+
+  - title: "A dynamical network framework and its stability analysis"
+    date: "2018.06"
+    place: "Stony Brook University"
+
+  - title: "A dynamical network framework with application to stability of power networks"
+    date: "2017.12"
+    place: "IEEE CDC"
+
+  - title: "Multi-leader selection in complex networks"
+    date: "2016.12"
+    place: "IEEE CDC"
