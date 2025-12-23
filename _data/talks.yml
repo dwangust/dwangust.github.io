@@ -25,8 +25,8 @@ talks:
     place: "复杂系统相位理论研讨会，北京"
 
   - title: 'Phase of multivariable systems: a revisit via $\\mathcal{H}_2^T$-dissipativity'
-    date: "2023.12"
-    place: "IEEE CDC"
+    date: '2023.12'
+    place: 'IEEE CDC'
 
   - title: "Synchronization of diverse agents via phase analysis"
     date: "2023.08"
