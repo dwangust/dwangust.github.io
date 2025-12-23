@@ -3,8 +3,8 @@
     <li style="margin: 0.45em 0;">
       {{ t.date }}&nbsp;&nbsp;
       {{ t.title }},
-      {{ t.place }},
-      {% if t.note %} {{ t.note }}{% endif %}
+      {{ t.place }}
+      {% if t.note %} {{, t.note }}{% endif %}
 
       {% if t.links and t.links.size > 0 %}
         {% for l in t.links %}
