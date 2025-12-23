@@ -12,7 +12,8 @@ Assistant Professor\
 School of Robotics and Automation, Nanjing University\
 Suzhou, Jiangsu, China\
 Office: Room West 346, Nanyong Building\
-Address: 1520 Taihu Avenue, Suzhou City, Jiangsu Province. 
+Address: 1520 Taihu Avenue, Suzhou City, Jiangsu Province.
+Email: danwang@nju.edu.cn 
 
 <b>I am looking for self-motivated Ph.D./master/undergraduate students to join my group. Please email me your CV if you are interested.</b> 
 
