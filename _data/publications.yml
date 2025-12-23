@@ -119,7 +119,7 @@ conference:
       - name: "Link"
         url: "https://ieeexplore.ieee.org/abstract/document/10590990"
 
-  - title: "Phase of multivariable systems: a revisit via $\\mathcal{H}_2^T$-dissipativity"
+  - title: "Phase of multivariable systems: a revisit via $H_2^T$-dissipativity"
     authors: "D. Wang, W. Chen, and K. H. Johansson"
     venue: "IEEE Conference on Decision and Control"
     year: 2023
