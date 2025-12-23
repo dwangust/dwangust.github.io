@@ -2,9 +2,9 @@
   {% for t in site.data.talks.talks %}
     <li style="margin: 0.45em 0;">
       {{ t.date }}&nbsp;&nbsp;
-      {{ t.title | markdownify | remove: "<p>" | remove: "</p>" }},
-      {{ t.place }}
-      {% if t.note %} ({{ t.note }}){% endif %}
+      {{ t.title }},
+      {{ t.place }},
+      {% if t.note %} {{ t.note }}{% endif %}
 
       {% if t.links and t.links.size > 0 %}
         {% for l in t.links %}
