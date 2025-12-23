@@ -1,56 +1,37 @@
-{% assign myname = "D. Wang" %}
+{%- assign myname = "D. Wang" -%}
+{%- assign groups = "preprint,journal,conference" | split: "," -%}
+{%- assign labels = "Preprints,Journals,Conferences" | split: "," -%}
 
-{% assign groups = "preprint,journal,conference" | split: "," %}
-{% assign labels = "Preprints,Journals,Conferences" | split: "," %}
+{%- for g in groups -%}
+  {%- assign idx = forloop.index0 -%}
+  {%- assign label = labels[idx] -%}
+  {%- assign items = site.data.publications[g] -%}
 
-{% for g in groups %}
-  {% assign idx = forloop.index0 %}
-  {% assign label = labels[idx] %}
-  {% assign items = site.data.publications[g] %}
-
-  {% if items and items.size > 0 %}
+  {%- if items and items.size > 0 -%}
     <h2 style="margin-top: 1.4em;">{{ label }}</h2>
 
     <ul style="list-style: none; padding-left: 0;">
-      {% for p in items %}
+      {%- for p in items -%}
         <li style="margin: 0.45em 0;">
+          {%- assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" -%}
 
-          <!-- 自动编号（按 YAML 顺序） -->
-          [{{ forloop.index }}]
-          
-          <!-- 作者（你的名字自动加粗） -->
-          {% assign author_text = p.authors | replace: myname, "<strong>D. Wang</strong>" %}
-          {{ author_text }}.
-
-          <!-- 标题 -->
-          {{ p.title }}.
-
-          <!-- 期刊 / 会议 -->
-	{% if g == "preprint" %}
-	  {% if p.year %}{{ p.year }}{% endif %}
-	  {% if p.note and p.note != "" %}
-	    , {{ p.note }}
-	  {% endif %}.
-	{% else %}
-	  {% if g == "journal" or g == "conference" %}
-	    <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}
-	  {% else %}
-	    {{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}
-	  {% endif %}
-
-	  {% if p.note and p.note != "" %}
-	      (<strong>{{ p.note }}</strong>)
-	  {% endif %}.
-
-	<!-- 链接 -->
-          {% if p.links and p.links.size > 0 %}
-            {% for l in p.links %}
-              <a href="{{ l.url }}">[{{ l.name }}]</a>
-            {% endfor %}
+          [{{ forloop.index }}] {{ author_text }}, {{ p.title }}, 
+          {% if g == "preprint" %}
+            {%- if p.year -%} {{ p.year }}{%- endif -%}
+            {%- if p.note and p.note != "" -%}, {{ p.note }}{%- endif -%}.
+          {% else %}
+            <em>{{ p.venue }}</em>{%- if p.year -%}, {{ p.year }}{%- endif -%}
+            {%- if p.note and p.note != "" -%}, ({{ p.note }}){%- endif -%}. 
           {% endif %}
 
+          {%- if p.links and p.links.size > 0 -%}
+            {%- for l in p.links -%}
+              {%- if forloop.first -%} {%- else -%}, {%- endif -%}
+              <a href="{{ l.url }}">[{{ l.name }}]</a>
+            {%- endfor -%}
+          {%- endif -%}
         </li>
-      {% endfor %}
+      {%- endfor -%}
     </ul>
-  {% endif %}
-{% endfor %}
+  {%- endif -%}
+{%- endfor -%}
