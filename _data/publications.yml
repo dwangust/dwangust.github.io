@@ -119,13 +119,13 @@ conference:
       - name: "Link"
         url: "https://ieeexplore.ieee.org/abstract/document/10590990"
 
-  - title: "Phase of multivariable systems: a revisit via $H_2^T$-dissipativity"
-    authors: "D. Wang, W. Chen, and K. H. Johansson"
-    venue: "IEEE Conference on Decision and Control"
+  - title: 'Phase of multivariable systems: a revisit via $H_2^T$-dissipativity'
+    authors: 'D. Wang, W. Chen, and K. H. Johansson'
+    venue: 'IEEE Conference on Decision and Control'
     year: 2023
     links:
-      - name: "Link"
-        url: "https://ieeexplore.ieee.org/abstract/document/10384290"
+      - name: 'Link'
+        url: 'https://ieeexplore.ieee.org/abstract/document/10384290'
 
   - title: "On a small phase theorem with necessity over phase bounded nonlinear uncertainties"
     authors: "X. Yang, D. Wang, and W. Chen"
