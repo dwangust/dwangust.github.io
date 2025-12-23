@@ -30,7 +30,7 @@ author:
   location         : "Suzhou"
   employer         : "Nanjing University"
   uri              : # URL
-  email            : "danwang@nju.edu.cn" 
+  email            : #"danwang@nju.edu.cn" 
 
   # Academic websites
   academia         : # URL
