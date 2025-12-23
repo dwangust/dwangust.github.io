@@ -1,8 +1,8 @@
 <ul>
   {% for t in site.data.talks.talks %}
     <li style="margin: 0.45em 0;">
-      {{ t.date }}
-      {{ t.title }},
+      {{ t.date }} 
+      {{ t.title | markdownify | remove: "<p>" | remove: "</p>" }},
       {{ t.place }}
       {% if t.note %} ({{ t.note }}){% endif %}
 
