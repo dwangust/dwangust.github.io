@@ -24,7 +24,7 @@ talks:
     date: "2024.07"
     place: "复杂系统相位理论研讨会，北京"
 
-  - title: 'Phase of multivariable systems: a revisit via $H_2^T$-dissipativity'
+  - title: 'Phase of multivariable systems: a revisit via $\\mathcal{H}_2^T$-dissipativity'
     date: "2023.12"
     place: "IEEE CDC"
 
