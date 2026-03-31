@@ -21,13 +21,13 @@ preprint:
     #     url: "https://..."
 
 journal:
-   - title: "State feedback $\Phi_\infty$ synthesis of multivariable linear systems"
-     authors: "X. Yang, D. Wang, and W. Chen"
-     venue: "Systems & Control Letters"
-     year: 2026
-     links:
-       - name: "Link"
-         url: "https://www.sciencedirect.com/science/article/abs/pii/S0167691125002944"
+  - title: 'State feedback $\Phi_\infty$ synthesis of multivariable linear systems'
+    authors: 'X. Yang, D. Wang, and W. Chen'
+    venue: 'Systems & Control Letters'
+    year: 2026
+    links:
+      - name: 'Link'
+        url: 'https://www.sciencedirect.com/science/article/abs/pii/S0167691125002944'
 
   - title: "Assessment, cause localization, and mitigation for small-signal stability risks in multi-parallel grid-forming converter systems"
     authors: "F. Chen, X. Wang, L. Harnefors, S. Z. Khong, J. Kukkola, M. Routimo, L. Zhao, D. Wang, H. Sandberg, K. C. Sou, and K. H. Johansson"
