@@ -5,8 +5,7 @@ talks:
 
   - title: "相位理论与异构多智能体网络的同步"
     date: "2025.10"
-    place: "南方科技大学"
-    note: "控制-优化-网络系列讲座"
+    place: "南方科技大学，控制-优化-网络系列讲座"
 
   - title: "Gain and phase: decentralized stability condition for renewable power systems"
     date: "2025.06"
@@ -50,8 +49,7 @@ talks:
 
   - title: "Synchronization of diverse agents via phase analysis"
     date: "2021.12"
-    place: "东北大学"
-    note: "NEU and HKUST Joint Mini-Workshop on Nonlinear Small X, online"
+    place: "东北大学，NEU and HKUST Joint Mini-Workshop on Nonlinear Small X, online"
 
   - title: "Synchronization of heterogeneous dynamical networks via phase analysis"
     date: "2020.07"
