@@ -62,14 +62,6 @@ journal:
       - name: "Link"
         url: "https://ieeexplore.ieee.org/document/10477540"
 
-  - title: "An extended frequency-domain passivity theory for MIMO dynamics specifications of voltage-source inverters"
-    authors: "F. Chen, S. Z. Khong, L. Harnefors, X. Wang, D. Wang, H. Sandberg, L. Zhao, M. Routimo, J. Kukkola, K. C. Sou, and K. H. Johansson"
-    venue: "IEEE Transactions on Power Electronics"
-    year: 2024
-    links:
-      - name: "Link"
-        url: "https://ieeexplore.ieee.org/abstract/document/10739924"
-
   - title: "A phase theory of multi-input multi-output linear time-invariant systems"
     authors: "W. Chen, D. Wang, S. Z. Khong, and L. Qiu"
     venue: "SIAM Journal on Control and Optimization"
@@ -77,6 +69,14 @@ journal:
     links:
       - name: "Link"
         url: "https://epubs.siam.org/doi/abs/10.1137/22M148968X"
+
+  - title: "An extended frequency-domain passivity theory for MIMO dynamics specifications of voltage-source inverters"
+    authors: "F. Chen, S. Z. Khong, L. Harnefors, X. Wang, D. Wang, H. Sandberg, L. Zhao, M. Routimo, J. Kukkola, K. C. Sou, and K. H. Johansson"
+    venue: "IEEE Transactions on Power Electronics"
+    year: 2024
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/10739924"
 
   - title: "Limitations of using passivity index to analyze grid-inverter interactions"
     authors: "F. Chen, X. Wang, L. Harnefors, S. Z. Khong, D. Wang, L. Zhao, K. C. Sou, M. Routimo, J. Kukkola, H. Sandberg, and K. H. Johansson"
