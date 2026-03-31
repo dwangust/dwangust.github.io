@@ -11,7 +11,32 @@ preprint:
     #   - name: "arXiv"
     #     url: "https://..."
 
+  - title: "Positive definiteness of truncated random return in distributional LQR with applications to distributionally robust verification and control"
+    authors: "R. Teng, D. Wang, W. Chen, and Y. Gao"
+    venue: "arXiv"
+    year: 2025
+    note: "under review in Systems & Control Letters"
+    # links:
+    #   - name: "arXiv"
+    #     url: "https://..."
+
 journal:
+   - title: "State feedback $\Phi_\infty$ synthesis of multivariable linear systems"
+     authors: "X. Yang, D. Wang, and W. Chen"
+     venue: "Systems & Control Letters"
+     year: 2026
+     links:
+       - name: "Link"
+         url: "https://www.sciencedirect.com/science/article/abs/pii/S0167691125002944"
+
+  - title: "Assessment, cause localization, and mitigation for small-signal stability risks in multi-parallel grid-forming converter systems"
+    authors: "F. Chen, X. Wang, L. Harnefors, S. Z. Khong, J. Kukkola, M. Routimo, L. Zhao, D. Wang, H. Sandberg, K. C. Sou, and K. H. Johansson"
+    venue: "IEEE Transactions on Smart Grid"
+    year: 2025
+    links:
+      - name: "Link"
+        url: "https://ieeexplore.ieee.org/abstract/document/11151621"
+
   - title: "Synchronization of diverse agents via phase analysis"
     authors: "D. Wang, W. Chen, and L. Qiu"
     venue: "Automatica"
@@ -29,22 +54,6 @@ journal:
       - name: "Link"
         url: "https://ieeexplore.ieee.org/document/10605729"
 
-  - title: "On the phases of a semi-sectorial matrix and the essential phase of a Laplacian"
-    authors: "D. Wang, X. Mao, W. Chen, and L. Qiu"
-    venue: "Linear Algebra and its Applications"
-    year: 2023
-    links:
-      - name: "Link"
-        url: "https://www.sciencedirect.com/science/article/abs/pii/S0024379523002744"
-
-  - title: "On the phases of a complex matrix"
-    authors: "D. Wang, W. Chen, S. Z. Khong, and L. Qiu"
-    venue: "Linear Algebra and its Applications"
-    year: 2020
-    links:
-      - name: "Link"
-        url: "https://www.sciencedirect.com/science/article/pii/S0024379520300458"
-
   - title: "Gain and phase: decentralized stability conditions for power electronics-dominated power systems"
     authors: "L. Huang, D. Wang (co-first), X. Wang, H. Xin, P. Ju, K. H. Johansson, and F. Dörfler"
     venue: "IEEE Transactions on Power Systems"
@@ -53,18 +62,10 @@ journal:
       - name: "Link"
         url: "https://ieeexplore.ieee.org/document/10477540"
 
-  # - title: "State feedback $\Phi_\infty$ synthesis of multivariable linear systems"
-  #   authors: "X. Yang, D. Wang, and W. Chen"
-  #   venue: "Systems & Control Letters"
-  #   year: 2026
-  #   links:
-  #     - name: "Link"
-  #       url: "https://www.sciencedirect.com/science/article/abs/pii/S0167691125002944"
-
   - title: "An extended frequency-domain passivity theory for MIMO dynamics specifications of voltage-source inverters"
     authors: "F. Chen, S. Z. Khong, L. Harnefors, X. Wang, D. Wang, H. Sandberg, L. Zhao, M. Routimo, J. Kukkola, K. C. Sou, and K. H. Johansson"
     venue: "IEEE Transactions on Power Electronics"
-    year: 2025
+    year: 2024
     links:
       - name: "Link"
         url: "https://ieeexplore.ieee.org/abstract/document/10739924"
@@ -84,6 +85,14 @@ journal:
     links:
       - name: "Link"
         url: "https://ieeexplore.ieee.org/abstract/document/10598346"
+
+  - title: "On the phases of a semi-sectorial matrix and the essential phase of a Laplacian"
+    authors: "D. Wang, X. Mao, W. Chen, and L. Qiu"
+    venue: "Linear Algebra and its Applications"
+    year: 2023
+    links:
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0024379523002744"
 
   - title: "On spectral properties of signed Laplacians with connections to eventual positivity"
     authors: "W. Chen, D. Wang, J. Liu, Y. Chen, S. Z. Khong, T. Başar, K. H. Johansson, and L. Qiu"
@@ -110,7 +119,31 @@ journal:
       - name: "Link"
         url: "https://www.sciencedirect.com/science/article/pii/S2666657X21000112"
 
+  - title: "On the phases of a complex matrix"
+    authors: "D. Wang, W. Chen, S. Z. Khong, and L. Qiu"
+    venue: "Linear Algebra and its Applications"
+    year: 2020
+    links:
+      - name: "Link"
+        url: "https://www.sciencedirect.com/science/article/pii/S0024379520300458"
+
 conference:
+  - title: 'Scalable controller design for consensus with performance considerations: A phase-theoretical approach'
+    authors: 'D. Wang, W. Chen, K. H. Johansson, and L. Qiu'
+    venue: 'IEEE Conference on Decision and Control'
+    year: 2025
+    links:
+      - name: 'Link'
+        url: 'https://ieeexplore.ieee.org/abstract/document/11312731'
+
+  - title: 'Quadratic truncated random return in distributional LQR: Positive definiteness, density, and log-concavity'
+    authors: 'R. Teng, D. Wang, W. Chen, and Y. Gao'
+    venue: 'IEEE Conference on Decision and Control'
+    year: 2025
+    links:
+      - name: 'Link'
+        url: 'https://ieeexplore.ieee.org/abstract/document/11312499'
+
   - title: "Robust output synchronization of discrete-time linear-time-invariant multi-agent systems using phase tool"
     authors: "X. Mao, D. Wang, W. Chen, and L. Qiu"
     venue: "European Control Conference"
